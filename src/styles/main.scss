@@ -1,0 +1,29 @@
+@use 'hero';
+@use 'about';
+@use 'cast';
+@use 'trailer';
+@use 'footer';
+
+@font-face {
+    font-family: Orbitron;
+    src: url(../../assets/fonts/Orbitron/static/Orbitron-Regular.ttf);
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Orbitron ,sans-serif;
+};
+
+$corDeFundo: #040714;
+
+body {
+    background-color: $corDeFundo;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}

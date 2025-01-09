@@ -1,0 +1,25 @@
+.cast {
+    padding: 2vw 5.6vw;
+
+    h2 {
+        margin-top: 8vw;
+        margin-bottom: 2em;
+        font-size: 1.5em;
+    }
+
+    &-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 400px);
+        gap: 24px;
+        justify-content: center;
+
+        &-item {
+            img {
+                max-width: 100%;
+                border-radius: 4px;
+                width: 400px;
+                height: 400px;
+            }
+        }
+    }
+}

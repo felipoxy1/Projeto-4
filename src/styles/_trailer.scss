@@ -1,0 +1,16 @@
+.trailer {
+    h2 {
+        margin-top: 8vw;
+    }
+
+    &-zone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 4vw 0;
+
+        iframe {
+            border-radius: 8px;
+        }
+    }
+}
